@@ -1,5 +1,13 @@
-const botaoComecar = document.getElementById("botaoComecar");
+const botaoEntrar = document.getElementById("botaoEntrar");
 
-botaoComecar.addEventListener("click", function() {
-    alert("Bem-vinda ao Doce Destino! ♡");
+const telaInicial = document.getElementById("telaInicial");
+const telaLogin = document.getElementById("telaLogin");
+
+
+botaoEntrar.addEventListener("click", function() {
+
+    telaInicial.style.display = "none";
+
+    telaLogin.style.display = "flex";
+
 });
