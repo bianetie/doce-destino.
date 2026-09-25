@@ -63,8 +63,8 @@ button {
     cursor: pointer;
 }
 #telaLogin {
-    display: none;
+    display: none !important;
 }
 #telaCadastro {
-    display: none;
+    display: none !important;
 }
