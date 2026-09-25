@@ -33,3 +33,13 @@ botaoInscrever.addEventListener("click", function() {
     telaCadastro.style.display = "flex";
 
 });
+const botaoVoltarCadastro = document.getElementById("botaoVoltarCadastro");
+
+
+botaoVoltarCadastro.addEventListener("click", function() {
+
+    telaCadastro.style.display = "none";
+
+    telaInicial.style.display = "flex";
+
+});
