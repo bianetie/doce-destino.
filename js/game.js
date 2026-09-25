@@ -11,3 +11,13 @@ botaoEntrar.addEventListener("click", function() {
     telaLogin.style.display = "flex";
 
 });
+const botaoVoltarLogin = document.getElementById("botaoVoltarLogin");
+
+
+botaoVoltarLogin.addEventListener("click", function() {
+
+    telaLogin.style.display = "none";
+
+    telaInicial.style.display = "flex";
+
+});
