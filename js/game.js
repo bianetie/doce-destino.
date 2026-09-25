@@ -21,3 +21,15 @@ botaoVoltarLogin.addEventListener("click", function() {
     telaInicial.style.display = "flex";
 
 });
+const botaoInscrever = document.getElementById("botaoInscrever");
+
+const telaCadastro = document.getElementById("telaCadastro");
+
+
+botaoInscrever.addEventListener("click", function() {
+
+    telaInicial.style.display = "none";
+
+    telaCadastro.style.display = "flex";
+
+});
